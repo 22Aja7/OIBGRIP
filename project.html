@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title> Temperature converted </title>
+<meta name="viewport" content = "width=device-width, height=device-height, initial-scale = 1">
+<link rel="stylesheet" href="style_css.css">
+<script src = "temperature_calculation.js"></script> 
+</head>
+
+<body>
+<div class="main_frame">
+
+<div class = "heading">
+	
+<h1>Temperature converter<br>
+<span style="text-align:right;font-size:10px;">
+convert celsius to fahrenheit and vice versa</span></h1>
+</div> <!--heading-->
+
+	<div class="input_area">
+		<div class="input_box">
+		<span style="font-size:18px;">Degree</span><br>
+		<input type="text" name="temp_value" id="input">
+			</div><!--input_box-->
+
+		<div class="option">
+		Types:<br>
+		<input type="radio" name="temp" value="celsius" id="cel">Celsius<br>
+		<input type="radio" name="temp" value="fahrenheit" id="fah">Fahrenheit
+			</div> <!--option-->
+	</div><!--input_area-->
+
+	<div class="output_section">
+		result:<br>
+		<div class="display">
+		<p id="ans"></p>
+			</div><!--display-->
+	</div><!--output_section-->
+		<div class="sub">
+		<p style="text-align:center;font-size:24px;" onclick = "return calculation()">Convert</p>
+			</div><!--sub-->
+	
+
+</div><!--main_frame-->
+
+</body>
+
+</html>
