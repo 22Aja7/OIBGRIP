@@ -1,0 +1,147 @@
+.img_div
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:280px;
+	overflow:hidden;
+}
+.leftCorner
+{
+	position:absolute;
+	left:20px;
+	top:15px;
+	display:flex;
+	width:120px;
+	height:30px;
+}
+.logo
+{
+	position:absolute;
+	display:block;
+	top:0px;
+	width:15px;
+	height:15px;
+	display:block;
+}
+.brand
+{
+	position:absolute;
+	left:15px;
+	width:90px;
+	height:100%;
+	}
+.rightCorner
+{
+	position:absolute;
+	right:30px;
+	top:15px;
+	width:100px;
+	height:30px
+}
+.globe
+{
+	position:absolute;
+	left:0px;
+	width:15px;
+	}
+.lang
+{
+	position:absolute;
+	right:0px;
+	width:83px;
+	}
+.txt
+{
+	position:absolute;
+	top:60px;
+	width:100%;
+	line-height:0.8;
+    text-align:center;
+}
+.content
+{
+	position:relative;
+	top:60px;
+	left:10%;
+	width:80%;
+	display:block;
+}
+.cont1,.cont2,.cont3
+{
+	box-sizing:border-box;
+	position:relative;
+	border:2px solid white;
+	float:left;
+	width:100%;
+	display:flex;
+}
+.cont1_txt,.cont2_txt, .cont3_txt
+{
+	position:relative;
+	left:70px;
+	}
+.imageCont
+{
+	box-sizing:border-box;
+	border:1px solid white;
+	border-collapse:collapse;
+	display:flex;
+	float:left;
+	position:relative;
+	width:100%;
+	padding:1px;
+	}
+.img_1_div,.img_2_div,.img_3_div
+{
+	box-sizing:border-box;
+	border:2px solid white;
+	border-collapse:collapse;
+	height:240px;
+	width:100%;
+	display:block;
+	padding:30px;
+}
+.img1_div,.img2_div,.img3_div 
+{
+	position:relative;
+	width:100%;
+}
+.img1_cont,.img2_cont,.img3_cont
+{
+	text-align:center;
+}
+.link
+{
+	position:relative;
+	top:60px;
+	width:100%;
+	text-align:center;
+}
+.map
+{
+	position:absolute;
+	top:40px;
+	width:80%;
+	height:400px;
+}
+.right_info
+{
+	position:absolute;
+	top:50px;
+	right:20px;
+	width:120px;
+}
+.vpn_loc
+{
+	position:absolute;
+	top:380px;
+	width:100%;
+	text-align:center;
+}
+.map_block
+{
+	position:relative;
+	top:50px;
+}
