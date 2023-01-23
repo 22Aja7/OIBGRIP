@@ -1,0 +1,125 @@
+body
+{
+margin-left:5%;
+margin-right:10%;
+background:#42A935;
+color:white;
+}
+.container
+{
+	position:relative;
+	margin:10%;
+	
+}
+.profile-image
+{
+	position:relative;
+	top:10px;
+}
+
+p.heading
+{
+	font-size:45px;
+	text-align:center;
+	letter-spacing:4px;
+	border-bottom:2px solid white;
+}
+
+.image img
+{
+	position:absolute;
+	right:0px;
+	border:1px solid #42A935;
+	width:20%;
+	height:200px;
+	border-radius:25px;
+	
+}
+.intro-container
+{
+	position:relative;
+	box-sizing:border-box;
+	background:#9FD4AF;
+	width:50%;
+	line-height:1.2;
+	padding:12px;
+	box-shadow:0px 4px 12px 0px rgba(159,212,175,0.7);	
+}
+#intro
+{
+	color:#42A935;
+	font-size:36px;
+	border:2px solid #9FD4AF;
+	background:#b0b59a;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+}
+#description
+{
+	color:black;
+	font-size:24px;
+	margin-left:12px;
+	text-align:justify;
+	text-indent:20px;
+}
+.edu_qualification
+{
+	position:relative;
+	box-sizing:border-box;
+	box-shadow:0px 4px 12px 0px rgba(159,212,175,0.7);
+	top:100px;
+	width:100%;
+	padding:10px;
+	background:#9FD4AF;
+}
+#edu_heading
+{
+	color:#42A935;
+	font-size:36px;
+	border:2px solid #9FD4AF;
+	background:#b0b59a;
+	border-radius:20px;
+	padding:10px;
+	text-align:center;
+}
+
+
+.data dl dt
+{
+	font-size:32px;
+	color:#42A935;
+}
+.data dl dd
+{
+	color:black;
+	font-size:24px;
+	padding-bottom:12px;
+}
+.skill_section
+{
+	position:relative;
+	top:110px;
+	width:100%;
+	box-sizing:border-box;
+	box-shadow:0px 4px 12px 0px rgba(159,212,175,0.7);
+	background:#9FD4AF;
+}
+.skill_section ul li
+{
+	color:black;
+	font-size:24px;
+	
+}
+
+#heading_skill
+{
+	color:#42A935;
+	font-size:36px;
+	border:2px solid #9FD4AF;
+	padding:10px;
+	text-align:center;
+	background:#b0b59a;
+	border-radius:20px;
+	
+}
